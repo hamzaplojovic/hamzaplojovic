@@ -29,4 +29,7 @@
   <a href="https://www.linkedin.com/in/hamzaplojovic"><img src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/linkedin.svg" width="150"></a>  
   
     
+  [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
+
+    
 </div>
