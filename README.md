@@ -32,3 +32,6 @@
   [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
    
 </div>
+<br><br>
+
+![snake gif](https://github.com/hamzaplojovic/hamzaplojovic/blob/output/github-contribution-grid-snake.svg)
