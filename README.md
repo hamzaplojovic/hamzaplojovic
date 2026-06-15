@@ -1,36 +1,24 @@
 # Hamza Plojović
 
-**Senior Python / backend engineer — AI agents, MCP, eval & inference infra.**
+Senior Python and backend engineer. I work mostly on the infrastructure around AI agents: MCP integrations, agent supervision, RAG, and eval tooling.
 
-I build backend systems and the infrastructure that makes AI agents reliable: MCP integrations, agent supervision, RAG, and evaluation tooling. ~5 yrs experience, remote, B2B contracting from Serbia. I ship — on [PyPI](https://pypi.org/user/hamzaplojovic/), [Homebrew](https://github.com/hamzaplojovic/homebrew-tap), and in production.
+About 5 years in. I contract remotely (B2B) from Serbia. Some of my work is on [PyPI](https://pypi.org/user/hamzaplojovic/) and [Homebrew](https://github.com/hamzaplojovic/homebrew-tap).
 
----
+## Some things I've built
 
-## Featured work
+[godel-rwkv](https://github.com/hamzaplojovic/godel-rwkv) is a supervisor for Claude Code that watches for stuck patterns. It's a small ML model (101K params) trained on 84K real SWE-bench agent trajectories to spot when a coding agent has started looping. Runs locally on MLX / Apple Silicon, around 5ms per inference, no API cost.
 
-**[godel-rwkv](https://github.com/hamzaplojovic/godel-rwkv)** — Stuck-pattern supervisor for Claude Code. An ML model trained on **84K real SWE-bench agent trajectories** to detect when a coding agent is looping. 101K params, runs on MLX / Apple Silicon at **~5ms local inference, zero API cost**.
+[ccpair](https://github.com/hamzaplojovic/ccpair) does peer-to-peer agent pairing sessions over a local network, using mDNS for discovery. Install with `uv tool install ccpair`.
 
-**[ccpair](https://github.com/hamzaplojovic/ccpair)** — Peer-to-peer agent pairing sessions over LAN, with mDNS discovery — two Claude Code agents collaborating across machines. Published: `uv tool install ccpair`.
+[remind](https://github.com/hamzaplojovic/remind) is a terminal reminder tool with Claude Code MCP integration. It's on PyPI and Homebrew.
 
-**[remind](https://github.com/hamzaplojovic/remind)** · [![PyPI](https://badge.fury.io/py/remind-cli.svg)](https://pypi.org/project/remind-cli/) [![Downloads](https://static.pepy.tech/badge/remind-cli)](https://pepy.tech/project/remind-cli) — AI-powered terminal reminders with native Claude Code **MCP integration**. On PyPI + Homebrew.
+[esim-gateway](https://github.com/hamzaplojovic/esim-gateway) is a FastAPI gateway that sits in front of several eSIM providers. Handles retries and circuit breakers.
 
-**[esim-gateway](https://github.com/hamzaplojovic/esim-gateway)** — Unified Python/FastAPI API gateway over multiple eSIM providers. Circuit breakers, retries, and CI — production-grade resilience patterns.
-
----
-
-## Also shipped
-
-A cluster of small, focused CLI tools published to PyPI / Homebrew:
-
-[dotenvguard](https://github.com/hamzaplojovic/dotenvguard) · [cronguard](https://github.com/hamzaplojovic/cronguard) · [branchguard](https://github.com/hamzaplojovic/branchguard) · [certguard](https://github.com/hamzaplojovic/certguard) · [freeport](https://github.com/hamzaplojovic/freeport)
-
----
+I've also published a few smaller CLI tools: [dotenvguard](https://github.com/hamzaplojovic/dotenvguard), [cronguard](https://github.com/hamzaplojovic/cronguard), [branchguard](https://github.com/hamzaplojovic/branchguard), [certguard](https://github.com/hamzaplojovic/certguard), and [freeport](https://github.com/hamzaplojovic/freeport).
 
 ## Tech
 
-`Python` `FastAPI` `Django` `PostgreSQL` `Redis` `Kubernetes` `Agents / MCP / RAG` `Pydantic` `SQLAlchemy` `uv` `Go`
-
----
+`Python` `FastAPI` `Django` `PostgreSQL` `Redis` `Kubernetes` `MCP / RAG / Agents` `Pydantic` `SQLAlchemy` `uv` `Go`
 
 ## Links
 
